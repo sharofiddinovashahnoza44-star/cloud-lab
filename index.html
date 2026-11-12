@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud Lab</title>
+    <title>PaaS Loyihasi</title>
 
     <style>
         * {
@@ -14,156 +14,59 @@
         }
 
         body {
+            background: #eef3f8;
             font-family: Arial, sans-serif;
-            background: #eff6ff;
-            color: #1e3a8a;
-        }
-
-        header {
-            background: #123b75;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        header h1 {
-            font-size: 40px;
-            margin-bottom: 12px;
-        }
-
-        nav {
-            background: #2563eb;
-            padding: 18px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 15px;
-            font-weight: bold;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 70px 20px;
-        }
-
-        .hero h2 {
-            font-size: 30px;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            max-width: 750px;
-            margin: auto;
-            font-size: 18px;
-            line-height: 1.8;
-        }
-
-        .cards {
+            min-height: 100vh;
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
-            gap: 25px;
-            padding: 30px;
+            align-items: center;
         }
 
-        .card {
+        .container {
             background: white;
-            width: 280px;
-            padding: 30px;
-            border-radius: 15px;
+            width: 90%;
+            max-width: 600px;
+            padding: 28px;
+            border-radius: 8px;
             text-align: center;
-            box-shadow: 0 5px 15px #0002;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
         }
 
-        .card h3 {
-            color: #2563eb;
+        h1 {
+            color: #0786cf;
+            font-size: 24px;
             margin-bottom: 15px;
         }
 
-        .card p {
-            line-height: 1.6;
+        p {
+            color: #111;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 12px;
         }
 
-        footer {
-            background: #123b75;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            margin-top: 40px;
-        }
-
-        @media(max-width: 600px) {
-            header h1 {
-                font-size: 28px;
-            }
-
-            nav a {
-                display: inline-block;
-                margin: 8px;
-            }
+        .author {
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>☁ CLOUD LAB</h1>
-        <p>Bulutli texnologiyalar laboratoriyasi</p>
-    </header>
+    <div class="container">
 
-    <nav>
-        <a href="#home">Bosh sahifa</a>
-        <a href="#about">Loyiha haqida</a>
-        <a href="#security">Xavfsizlik</a>
-    </nav>
-
-    <section class="hero" id="home">
-        <h2>GitHub Pages platformasiga xush kelibsiz!</h2>
+        <h1>PaaS Loyihasi Jonli Rejimda!</h1>
 
         <p>
-            Ushbu veb-sayt GitHub Pages platformasi yordamida
-            yaratildi. Saytni internetga joylashtirish uchun
-            alohida server boshqarish talab qilinmaydi.
-            Loyiha HTML va CSS texnologiyalari asosida ishlab chiqildi.
+            Ushbu veb-sahifa server o‘rnatmasdan
+            platforma orqali global tarmoqqa chiqarildi.
         </p>
-    </section>
 
-    <section class="cards" id="about">
+        <p class="author">
+            Bajaruvchi: Shahnoza Sharofiddinova
+        </p>
 
-        <div class="card">
-            <h3>GitHub</h3>
-            <p>
-                Dasturiy kodlarni saqlash, boshqarish
-                va jamoaviy ishlash platformasi.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>GitHub Pages</h3>
-            <p>
-                Statik veb-saytlarni internetga
-                bepul joylashtirish xizmati.
-            </p>
-        </div>
-
-        <div class="card" id="security">
-            <h3>IAM / RBAC</h3>
-            <p>
-                Foydalanuvchilarning kirish huquqlarini
-                boshqarish va kod xavfsizligini ta'minlash.
-            </p>
-        </div>
-
-    </section>
-
-    <footer>
-        <p>© 2026 CLOUD LAB | GitHub Pages laboratoriya ishi</p>
-    </footer>
+    </div>
 
 </body>
 </html>
-
